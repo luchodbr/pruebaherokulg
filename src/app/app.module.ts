@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
 import { BienvenidaComponent } from './componentes/bienvenida/bienvenida.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { InicioSesionComponent } from './componentes/inicio-sesion/inicio-sesion.component';
+import { ErrorComponent } from './componentes/error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BienvenidaComponent
+    BienvenidaComponent,
+    LoginComponent,
+    InicioSesionComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
