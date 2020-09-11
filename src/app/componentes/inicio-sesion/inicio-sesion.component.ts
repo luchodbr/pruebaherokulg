@@ -11,7 +11,7 @@ export class InicioSesionComponent implements OnInit {
   constructor(private miServ : MiServiceService) { }
 
   ngOnInit(): void {
-    console.log(this.miServ.user);
+    // console.log(this.miServ);
   }
 
 }

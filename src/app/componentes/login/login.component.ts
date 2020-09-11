@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   }
   Logear(){
     if(this.user.name=="asd" && this.user.password == "123"){
-      this.miServ.user=this.user;
+      // this.miServ.user=this.user;
       this.root.navigateByUrl('inicioSesion');
     }else{
       this.root.navigateByUrl('error');
